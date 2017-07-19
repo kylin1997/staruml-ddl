@@ -1,0 +1,2 @@
+#staruml-ddl
+StarUML的ddl生成器插件，支持注释和AUTO_INCREMENT
