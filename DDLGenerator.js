@@ -128,6 +128,11 @@ define(function (require, exports, module) {
         if (elem.primaryKey || !elem.nullable) {
             line += " NOT NULL";
         }
+        if(elem.nullable){
+            if(_type == "DATE" || _type == "TIME" || _type == "DATETIME" || _type == "TIMESTAMP"){
+                line += " NULL";
+            }
+        }
         if(elem.primaryKey && options.autoIncrement){
             line += " AUTO_INCREMENT";
         }
