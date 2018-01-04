@@ -251,7 +251,14 @@ define(function (require, exports, module) {
         }
 
         codeWriter.outdent();
-        codeWriter.writeLine(");");
+        var line = ")";
+        
+        if(elem.documentation){
+            line += " COMMENT '" + elem.documentation + "';";
+        }else{
+            line += ";";
+        }
+        codeWriter.writeLine(line);
         codeWriter.writeLine();
     };
 
