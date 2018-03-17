@@ -132,6 +132,10 @@ define(function (require, exports, module) {
             if(_type == "DATE" || _type == "TIME" || _type == "DATETIME" || _type == "TIMESTAMP"){
                 line += " NULL";
             }
+        }else{
+            if(_type == "DATE" || _type == "TIME" || _type == "DATETIME" || _type == "TIMESTAMP"){
+                line += " DEFAULT CURRENT_TIMESTAMP";
+            }
         }
         if(elem.primaryKey && options.autoIncrement){
             line += " AUTO_INCREMENT";
