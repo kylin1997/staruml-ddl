@@ -1,5 +1,6 @@
-DDL Extension for StarUML
+DDL Extension for StarUML 3.0
 =========================
+This extension contain AUTO_INCREMENT, COMMENT, DEFAULT VALUE FOR DATE COLUMN
 
 This extension for StarUML (http://staruml.io) support to generate DDL (Data Definition Language) from ERD. Install this extension from Extension Manager of StarUML.
 
