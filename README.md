@@ -1,3 +1,8 @@
+本项目基于原作者starUML的 ddl的插件进行修改。 
+对MySQL进行了更加完善的适配。
+
+增加了主键自增，字段注释，表注释。
+
 DDL Extension for StarUML 3.0
 =========================
 This extension contain AUTO_INCREMENT, COMMENT, DEFAULT VALUE FOR DATE COLUMN
