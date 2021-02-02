@@ -3,6 +3,18 @@
 
 增加了主键自增，字段注释，表注释。
 
+
+插件路径：
+
+MacOS： /Users/<your user>/Library/Application Support/StarUML/extensions/
+
+Window: C:\Users/<your user>\AppData\Roaming\StarUML\extensions\
+
+Linux: ~/.config/StarUML/extensions/
+
+可将整个文件夹放到对应系统的Extensions目录。
+
+
 DDL Extension for StarUML 3.0
 =========================
 This extension contain AUTO_INCREMENT, COMMENT, DEFAULT VALUE FOR DATE COLUMN
