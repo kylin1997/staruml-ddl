@@ -6,9 +6,9 @@
 
 插件路径：
 
-MacOS： /Users/<your user>/Library/Application Support/StarUML/extensions/
+MacOS： /Users/\<your user\>/Library/Application Support/StarUML/extensions/
 
-Window: C:\Users/<your user>\AppData\Roaming\StarUML\extensions\
+Window: C:\Users\\\<your user\>\AppData\Roaming\StarUML\extensions\
 
 Linux: ~/.config/StarUML/extensions/
 
