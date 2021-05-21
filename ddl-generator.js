@@ -251,7 +251,7 @@ class DDLGenerator {
 
     codeWriter.outdent()
 
-    var line = ')'
+    var line = ') ENGINE=InnoDB DEFAULT CHARSET= utf8mb4 COLLATE = utf8mb4_bin '
 
     if(elem.documentation){
       line += " COMMENT '" + elem.documentation + "';";
